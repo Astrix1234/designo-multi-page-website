@@ -1,7 +1,7 @@
 import { Container } from './Header.styles';
-import { Logo } from '../../Shered/Logo/Logo';
+import { Logo } from '../../Shere/Logo/Logo';
 import { Link } from 'react-router-dom';
-import { NavigationLinks } from '../../Shered/Navigation/NavigationLinks/NavigationLinks';
+import { NavigationLinks } from '../../Shere/Navigation/NavigationLinks/NavigationLinks';
 
 export const Header = () => {
   return (
