@@ -1,10 +1,7 @@
 import styled from 'styled-components';
+import { LogoProps } from '../../../interfaces/interfaces';
 
 const basename = process.env.PUBLIC_URL || '/designo-multi-page-website';
-
-export interface LogoProps {
-  background: 'light' | 'dark';
-}
 
 const logoPaths = {
   light: `${basename}/assets/shared/desktop/logo-light.png`,

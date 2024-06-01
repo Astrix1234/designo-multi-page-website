@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
-export interface StyledLinkProps {
-  color: 'light' | 'dark';
-}
+import { StyledLinkProps } from '../../../../interfaces/interfaces';
 
 const linkColor = {
   light: 'var(--white)',
