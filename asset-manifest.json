@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/designo-multi-page-website/static/css/main.1c298145.css",
-    "main.js": "/designo-multi-page-website/static/js/main.73267d36.js",
+    "main.js": "/designo-multi-page-website/static/js/main.ab98b330.js",
+    "static/js/56.be87a6f6.chunk.js": "/designo-multi-page-website/static/js/56.be87a6f6.chunk.js",
     "static/js/453.f758af16.chunk.js": "/designo-multi-page-website/static/js/453.f758af16.chunk.js",
     "index.html": "/designo-multi-page-website/index.html",
     "main.1c298145.css.map": "/designo-multi-page-website/static/css/main.1c298145.css.map",
-    "main.73267d36.js.map": "/designo-multi-page-website/static/js/main.73267d36.js.map",
+    "main.ab98b330.js.map": "/designo-multi-page-website/static/js/main.ab98b330.js.map",
+    "56.be87a6f6.chunk.js.map": "/designo-multi-page-website/static/js/56.be87a6f6.chunk.js.map",
     "453.f758af16.chunk.js.map": "/designo-multi-page-website/static/js/453.f758af16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c298145.css",
-    "static/js/main.73267d36.js"
+    "static/js/main.ab98b330.js"
   ]
 }

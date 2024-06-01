@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdesigno_multi_page_website=self.webpackChunkdesigno_multi_page_website||[]).push([[56],{56:(e,i,s)=>{s.r(i),s.d(i,{default:()=>l});var n=s(802),t=s(579);function l(){return(0,t.jsxs)("div",{children:[(0,t.jsx)(n.mg,{children:(0,t.jsx)("title",{children:"Designo"})}),(0,t.jsx)("h1",{children:"Home Page"})]})}}}]);
+//# sourceMappingURL=56.be87a6f6.chunk.js.map
