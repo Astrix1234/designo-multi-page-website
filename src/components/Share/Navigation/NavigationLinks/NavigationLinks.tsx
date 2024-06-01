@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from '../Link/Link';
-import { StyledLinkProps } from '../Link/Link.styles';
+import { StyledLinkProps } from '../../../../interfaces/interfaces';
 import { StyledNavigationLinks, StyledNavItem } from './NavigationLinks.styles';
 
 const navigationObject = [
