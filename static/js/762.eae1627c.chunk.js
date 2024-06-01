@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdesigno_multi_page_website=self.webpackChunkdesigno_multi_page_website||[]).push([[762],{762:(e,s,i)=>{i.r(s),i.d(s,{default:()=>c});var t=i(802),n=i(579);function c(){return(0,n.jsxs)("div",{children:[(0,n.jsx)(t.mg,{children:(0,n.jsx)("title",{children:"Designo-contact-us"})}),(0,n.jsx)("h1",{children:"Contact Page"})]})}}}]);
+//# sourceMappingURL=762.eae1627c.chunk.js.map
