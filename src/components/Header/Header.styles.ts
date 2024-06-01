@@ -11,17 +11,15 @@ export const Container = styled.div`
   justify-content: space-between;
   margin: 0 auto;
 
-  ${media.desktop`
-   max-width: 1440px;
-  width: 100%;
-   height: 155px;
-    padding: 0 164px 0 165px; 
+  ${media.tablet`
+    max-width: 768px;
+    height: 155px;
+    padding: 0 40px 0 39px;
   `}
 
-  ${media.tablet`
-     max-width: 768px;
-  width: 100%;
-   height: 155px;
-    padding: 0 40px 0 39px; 
+  ${media.desktop`
+    max-width: 1440px;
+    height: 155px;
+    padding: 0 164px 0 165px;
   `}
 `;

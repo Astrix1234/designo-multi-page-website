@@ -7,12 +7,12 @@ const breakpoints = {
 
 export const media = {
   desktop: (styles: CSSProp) => css`
-    @media (max-width: ${breakpoints.desktop}) {
+    @media (min-width: ${breakpoints.desktop}) {
       ${styles}
     }
   `,
   tablet: (styles: CSSProp) => css`
-    @media (max-width: ${breakpoints.tablet}) {
+    @media (min-width: ${breakpoints.tablet}) {
       ${styles}
     }
   `,
