@@ -7,7 +7,8 @@ export const FooterContainer = styled.footer`
 `;
 
 export const Container = styled.div`
-  max-width: 1111px;
+  max-width: 1440px;
+  padding: 0 164px 0 165px;
   width: 100%;
   display: flex;
   align-items: center;
