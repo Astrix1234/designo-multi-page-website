@@ -1,6 +1,7 @@
 import { Container, FooterContainer } from './Footer.styles';
-import { Logo } from '../../shered/Logo/Logo';
+import { Logo } from '../../Shered/Logo/Logo';
 import { Link } from 'react-router-dom';
+import { NavigationLinks } from '../../Shered/Navigation/NavigationLinks/NavigationLinks';
 
 export const Footer = () => {
   return (
@@ -9,6 +10,7 @@ export const Footer = () => {
         <Link to="/">
           <Logo backgroundImage="light" />
         </Link>
+        <NavigationLinks color="light" />
       </Container>
     </FooterContainer>
   );
