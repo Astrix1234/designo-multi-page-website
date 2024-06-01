@@ -1,7 +1,15 @@
+import { Container, FooterContainer } from './Footer.styles';
+import { Logo } from '../../shered/Logo/Logo';
+import { Link } from 'react-router-dom';
+
 export const Footer = () => {
   return (
-    <footer>
-      <h1>Footer</h1>
-    </footer>
+    <FooterContainer>
+      <Container>
+        <Link to="/">
+          <Logo backgroundImage="light" />
+        </Link>
+      </Container>
+    </FooterContainer>
   );
-}
+};
