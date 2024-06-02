@@ -23,3 +23,9 @@ export const Container = styled.div`
     padding: 0 164px 0 165px;
   `}
 `;
+export const HederContainer = styled.header`
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  z-index: 100;
+`;

@@ -8,7 +8,7 @@ export const Footer = () => {
     <FooterContainer>
       <Container>
         <Link to="/">
-          <Logo background="light" />
+          <Logo $background="light" />
         </Link>
         <NavigationLinks color="light" />
       </Container>

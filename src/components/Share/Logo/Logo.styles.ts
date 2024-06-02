@@ -11,7 +11,7 @@ const logoPaths = {
 export const Container = styled.div<LogoProps>`
   width: 202px;
   height: 27px;
-  background-image: url(${props => logoPaths[props.background]});
+  background-image: url(${props => logoPaths[props.$background]});
   background-size: contain;
   background-repeat: no-repeat;
 `;

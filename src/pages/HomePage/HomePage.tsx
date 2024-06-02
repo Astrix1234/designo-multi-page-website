@@ -1,12 +1,13 @@
 import { Helmet } from 'react-helmet-async';
+import { MainPart } from '../../components/HomeAll/HeroPart/HeroPart';
 
 export default function HomePage() {
   return (
-    <div>
+    <>
       <Helmet>
         <title>Designo</title>
       </Helmet>
-      <h1>Home Page</h1>
-    </div>
+      <MainPart />
+    </>
   );
 }

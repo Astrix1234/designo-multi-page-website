@@ -9,4 +9,11 @@ const linkColor = {
 
 export const StyledLink = styled(Link)<StyledLinkProps>`
   color: ${props => linkColor[props.color]};
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 `;
