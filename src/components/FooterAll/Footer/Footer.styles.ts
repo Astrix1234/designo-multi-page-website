@@ -1,0 +1,67 @@
+import styled from 'styled-components';
+import { media } from '../../../stylesheets/media';
+
+export const FooterContainer = styled.footer`
+  background-color: var(--black);
+  color: #fff;
+  padding: 20px 0;
+`;
+
+export const Container = styled.div`
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+
+  ${media.tablet`
+    max-width: 768px;
+    padding: 0 40px 0 39px;
+    flex-direction: row;
+    padding-bottom: 80px;
+  `}
+
+  ${media.desktop`
+    max-width: 1440px;
+    padding: 0 164px 0 165px;
+    flex-direction: row;
+    padding-bottom: 72px;
+  `}
+`;
+
+export const NavContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 312px;
+
+  ${media.tablet`
+    flex-direction: row;
+    padding: 166px 0 40px 0;
+    border-bottom: 1px solid var(--white-10);
+    margin-bottom: 31px;
+  `}
+  ${media.desktop`
+    padding: 144px 0 40px 0 ;
+    flex-direction: row;
+    border-bottom: 1px solid var(--white-10);
+    margin-bottom: 31px;
+  `}
+`;
+
+export const ContactsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  ${media.tablet`
+    flex-direction: row;
+    gap: 10px;
+  `}
+
+  ${media.desktop`
+    flex-direction: row;
+    gap: 30px;
+  `}
+`;

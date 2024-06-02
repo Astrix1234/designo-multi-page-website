@@ -6,7 +6,7 @@ import { StyledNavigationLinks, StyledNavItem } from './NavigationLinks.styles';
 const navigationObject = [
   {
     to: '/about',
-    text: 'ABOUT',
+    text: 'OUR COMPANY',
   },
   {
     to: '/locations',

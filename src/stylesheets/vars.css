@@ -5,4 +5,6 @@
     --black: #1D1C1E;
     --peach: #E7816B;
     --light-peach: #FBE2DC;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --white-10: rgba(255, 255, 255, 0.1);
 }

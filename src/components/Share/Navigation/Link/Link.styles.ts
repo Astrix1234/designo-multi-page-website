@@ -9,6 +9,7 @@ const linkColor = {
 
 export const StyledLink = styled(Link)<StyledLinkProps>`
   color: ${props => linkColor[props.color]};
+  letter-spacing: 2px;
   text-decoration: none;
   transition: text-decoration 0.3s ease-in-out;
 
