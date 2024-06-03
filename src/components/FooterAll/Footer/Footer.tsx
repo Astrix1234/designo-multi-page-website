@@ -10,10 +10,12 @@ import { Link } from 'react-router-dom';
 import { NavigationLinks } from '../../Share/Navigation/NavigationLinks/NavigationLinks';
 import { FooterContacts } from '../FooterContacts/FooterContacts';
 import { Media } from '../Media/Media';
+import { GetInTouch } from '../GetInTouch/GetInTouch';
 
 export const Footer = () => {
   return (
     <FooterContainer>
+      <GetInTouch />
       <Container>
         <NavContainer>
           <Link to="/">

@@ -3,8 +3,8 @@ import { media } from '../../../stylesheets/media';
 
 export const FooterContainer = styled.footer`
   background-color: var(--black);
-  color: #fff;
-  padding: 20px 0;
+  color: var(--white);
+  position: relative;
 `;
 
 export const Container = styled.div`
@@ -16,14 +16,12 @@ export const Container = styled.div`
   ${media.tablet`
     max-width: 768px;
     padding: 0 40px 0 39px;
-    flex-direction: row;
     padding-bottom: 80px;
   `}
 
   ${media.desktop`
     max-width: 1440px;
     padding: 0 164px 0 165px;
-    flex-direction: row;
     padding-bottom: 72px;
   `}
 `;
@@ -34,7 +32,7 @@ export const NavContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 312px;
+  padding-top: 253px;
 
   ${media.tablet`
     flex-direction: row;

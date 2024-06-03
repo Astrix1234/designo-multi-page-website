@@ -25,12 +25,14 @@ export const MainPart = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <Button
-          content="Learn More"
-          color="dark"
-          $background="white"
-          onClick={handleClick}
-        />
+        <div>
+          <Button
+            content="Learn More"
+            color="dark"
+            $background="white"
+            onClick={handleClick}
+          />
+        </div>
       </ContentContainer>
     </Container>
   );
