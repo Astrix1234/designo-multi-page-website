@@ -65,3 +65,22 @@ export const ContactsContainer = styled.div`
     gap: 30px;
   `}
 `;
+
+export const ContactsMediaContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  ${media.tablet`
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  `}
+
+  ${media.desktop`
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  `}
+`;
