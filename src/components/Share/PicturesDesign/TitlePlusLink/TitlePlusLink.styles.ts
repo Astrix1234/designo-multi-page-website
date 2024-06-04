@@ -18,7 +18,9 @@ export const Container = styled.div`
 
   & div {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 
     & p {

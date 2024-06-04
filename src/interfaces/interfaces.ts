@@ -21,3 +21,9 @@ export interface StyledButtonProps extends ButtonProps {
   content: string;
   type?: 'button' | 'submit' | 'reset';
 }
+
+export interface PictureProps {
+  src: string;
+  alt: string;
+  onClick: () => void;
+}

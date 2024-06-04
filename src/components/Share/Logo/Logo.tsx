@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container } from './Logo.styles';
 import { LogoProps } from '../../../interfaces/interfaces';
 

@@ -3,6 +3,7 @@ import { media } from '../../../stylesheets/media';
 
 export const Container = styled.div`
   max-width: 375px;
+  padding: 0 24px;
   width: 100%;
   margin: 0 auto;
   z-index: 12;
