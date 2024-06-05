@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const StyledSVG = styled.svg`
   position: absolute;
-  top: 475px;
+  transform: rotate(90deg);
+  left: 0;
   z-index: -1;
 `;

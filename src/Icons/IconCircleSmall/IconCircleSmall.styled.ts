@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const BgPatternLeafContainer = styled.div`
+export const StyledSVG = styled.svg`
   position: absolute;
-  top: 475px;
+  left: 0;
   z-index: -1;
 `;
