@@ -26,22 +26,33 @@ export const Container = styled.div`
   `}
 `;
 
+export const ExtraContainer = styled.div`
+  height: 189px;
+
+  ${media.tablet`
+    height: 86px;
+  `}
+  ${media.desktop`
+   height: 72px;
+  `}
+`;
+
 export const NavContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 253px;
+  padding-top: 64px;
 
   ${media.tablet`
     flex-direction: row;
-    padding: 166px 0 40px 0;
+    padding: 80px 0 40px 0;
     border-bottom: 1px solid var(--white-10);
     margin-bottom: 31px;
   `}
   ${media.desktop`
-    padding: 144px 0 40px 0 ;
+    padding: 72px 0 40px 0 ;
     flex-direction: row;
     border-bottom: 1px solid var(--white-10);
     margin-bottom: 31px;

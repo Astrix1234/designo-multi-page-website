@@ -6,10 +6,13 @@ import {
 } from './GetInTouch.styles';
 import { BgPatternCallToAction } from '../../../Icons/BgPatternCallToAction/BgPatternCallToAction';
 import { Button } from '../../Share/Button/Button';
+import { useNavigate } from 'react-router-dom';
 
 export const GetInTouch = () => {
+  const navigate = useNavigate();
+
   const handleClick = () => {
-    console.log('Button clicked');
+    navigate('/contact');
   };
   return (
     <Container>

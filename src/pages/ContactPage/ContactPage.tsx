@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { Contact } from '../../components/ContactAll/Contact/Contact';
 
 export default function ContactPage() {
   return (
@@ -6,7 +7,7 @@ export default function ContactPage() {
       <Helmet>
         <title>Designo-contact-us</title>
       </Helmet>
-      <h1>Contact Page</h1>
+      <Contact />
     </div>
   );
 }

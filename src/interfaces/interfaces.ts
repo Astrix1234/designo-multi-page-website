@@ -27,3 +27,7 @@ export interface PictureProps {
   alt: string;
   onClick: () => void;
 }
+
+export interface NavContainerProps {
+  isContactPage: boolean;
+}
