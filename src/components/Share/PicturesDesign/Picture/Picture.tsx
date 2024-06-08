@@ -1,6 +1,6 @@
 import { PictureContainer, TitlePlusLinkContainer } from './Picture.styles';
-import { TitlePlusLink } from '../TitlePlusLink';
-import { PictureProps } from '../../../../../interfaces/interfaces';
+import { TitlePlusLink } from '../TitlePlusLink/TitlePlusLink';
+import { PictureProps } from '../../../../interfaces/interfaces';
 
 export const Picture: React.FC<PictureProps> = ({ src, alt, onClick }) => {
   return (
