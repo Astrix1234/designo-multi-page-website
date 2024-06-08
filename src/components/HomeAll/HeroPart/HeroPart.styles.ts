@@ -65,6 +65,7 @@ export const ContentContainer = styled.div`
 
   ${media.tablet`
     border-radius: 20px;
+    
     & h1 {
     font-size: 48px;
     line-height: 48px;
@@ -77,25 +78,19 @@ export const ContentContainer = styled.div`
     max-width: 445px;
      margin: 29px 0 19px 0;
   }
-
   `}
 
   ${media.desktop`
     height: 640px;
-    border-radius: 20px;
     text-align: left;
     padding-left: 95px;
     align-items: flex-start;
+    
     & h1 {
-    font-size: 48px;
-    line-height: 48px;
     max-width: 540px;
     margin-top: 145px;
   }
    & p {
-    font-size: 16px;
-    line-height: 26px;
-    max-width: 445px;
     margin: 30px 0 40px 0;
   }
   `}

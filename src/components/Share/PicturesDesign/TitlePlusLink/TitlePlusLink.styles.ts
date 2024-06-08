@@ -51,24 +51,4 @@ export const Container = styled.div`
     }
   }
   `}
-
-  ${media.desktop`
-    gap: 24px;
-
-     & h4 {
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-
-    & div {
-    gap: 21px;
-
-    & p {
-      line-height: auto;
-    }
-  }
-  `}
 `;

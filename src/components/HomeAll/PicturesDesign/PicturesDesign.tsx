@@ -11,7 +11,7 @@ import {
   imagesDesktop,
   imagesTablet,
   imagesMobile,
-} from '../../../utils/PicturesDesignArrays';
+} from '../../../utils/picturesDesignArrays';
 
 export const PicturesDesign = () => {
   const basename = process.env.PUBLIC_URL || '/designo-multi-page-website';

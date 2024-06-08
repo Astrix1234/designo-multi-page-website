@@ -19,15 +19,6 @@ export const StyledNavigationLinks = styled.ul`
     width: auto;
     margin-top: 0;
   `}
-
-  ${media.desktop`
-    gap: 42px;
-    flex-direction: row;
-    padding: 0;
-    border-top: none;
-    width: auto;
-     margin-top: 0;
-  `}
 `;
 
 export const StyledNavItem = styled.li`
