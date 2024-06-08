@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { media } from '../../../../../stylesheets/media';
+import { media } from '../../../../stylesheets/media';
 
 export const PictureContainer = styled.div`
   position: relative;
