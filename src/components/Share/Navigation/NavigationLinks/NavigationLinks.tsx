@@ -2,21 +2,7 @@ import React from 'react';
 import { Link } from '../Link/Link';
 import { StyledLinkProps } from '../../../../interfaces/interfaces';
 import { StyledNavigationLinks, StyledNavItem } from './NavigationLinks.styles';
-
-const navigationObject = [
-  {
-    to: '/about',
-    text: 'OUR COMPANY',
-  },
-  {
-    to: '/locations',
-    text: 'LOCATIONS',
-  },
-  {
-    to: '/contact',
-    text: 'CONTACT',
-  },
-];
+import { navigationObject } from '../../../../utils/navigation';
 
 export const NavigationLinks: React.FC<StyledLinkProps> = ({
   color = 'light',
