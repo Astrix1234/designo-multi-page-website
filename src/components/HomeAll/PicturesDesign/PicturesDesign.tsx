@@ -6,12 +6,12 @@ import {
 } from './PicturesDesign.styles';
 import { TitlePlusLink } from '../../Share/PicturesDesign/TitlePlusLink/TitlePlusLink';
 import { useMediaQuery } from 'react-responsive';
-import { Picture } from '../../Share/PicturesDesign/TitlePlusLink/Picture/Picture';
+import { Picture } from '../../Share/PicturesDesign/Picture/Picture';
 import {
   imagesDesktop,
   imagesTablet,
   imagesMobile,
-} from '../../../utils/picturesDesignArrays';
+} from '../../../utils/imagesDesignArrays';
 
 export const PicturesDesign = () => {
   const basename = process.env.PUBLIC_URL || '/designo-multi-page-website';
