@@ -11,6 +11,7 @@ export const StyledLink = styled(Link)<StyledLinkProps>`
   color: ${props => linkColor[props.color]};
   letter-spacing: 2px;
   text-decoration: none;
+  font-size: 14px;
   transition: text-decoration 0.3s ease-in-out;
 
   &:hover,

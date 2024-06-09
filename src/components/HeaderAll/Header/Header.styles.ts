@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { media } from '../../stylesheets/media';
+import { media } from '../../../stylesheets/media';
 
 export const Container = styled.div`
   max-width: 375px;
@@ -10,6 +10,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+
+  & button {
+    border: none;
+    background-color: transparent;
+  }
 
   ${media.tablet`
     max-width: 768px;

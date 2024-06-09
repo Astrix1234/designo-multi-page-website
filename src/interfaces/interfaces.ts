@@ -7,6 +7,11 @@ export interface LinkPropsMore extends StyledLinkProps {
   children: React.ReactNode;
 }
 
+export interface LinkMobilProps {
+  to: string;
+  children: React.ReactNode;
+}
+
 export interface LogoProps {
   $background: 'light' | 'dark';
 }
@@ -61,4 +66,10 @@ export interface TextareaProps {
   onBlur: (e: React.FocusEvent<HTMLTextAreaElement>) => void;
   value: string;
   placeholder: string;
+}
+
+export interface MobilNavigationProps {
+  onClose: () => void;
+  onOpen: () => void;
+  isOpen: boolean;
 }
