@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/designo-multi-page-website/static/css/main.75ff5ee8.css",
-    "main.js": "/designo-multi-page-website/static/js/main.ea3ea210.js",
+    "main.js": "/designo-multi-page-website/static/js/main.b3707153.js",
     "static/js/677.2d088a66.chunk.js": "/designo-multi-page-website/static/js/677.2d088a66.chunk.js",
-    "static/js/420.3e610f7b.chunk.js": "/designo-multi-page-website/static/js/420.3e610f7b.chunk.js",
+    "static/js/436.8340256a.chunk.js": "/designo-multi-page-website/static/js/436.8340256a.chunk.js",
     "static/js/282.80ffcb31.chunk.js": "/designo-multi-page-website/static/js/282.80ffcb31.chunk.js",
     "static/js/151.6ca8c71e.chunk.js": "/designo-multi-page-website/static/js/151.6ca8c71e.chunk.js",
     "static/js/453.f758af16.chunk.js": "/designo-multi-page-website/static/js/453.f758af16.chunk.js",
@@ -11,9 +11,9 @@
     "static/js/128.ab37e8a4.chunk.js": "/designo-multi-page-website/static/js/128.ab37e8a4.chunk.js",
     "index.html": "/designo-multi-page-website/index.html",
     "main.75ff5ee8.css.map": "/designo-multi-page-website/static/css/main.75ff5ee8.css.map",
-    "main.ea3ea210.js.map": "/designo-multi-page-website/static/js/main.ea3ea210.js.map",
+    "main.b3707153.js.map": "/designo-multi-page-website/static/js/main.b3707153.js.map",
     "677.2d088a66.chunk.js.map": "/designo-multi-page-website/static/js/677.2d088a66.chunk.js.map",
-    "420.3e610f7b.chunk.js.map": "/designo-multi-page-website/static/js/420.3e610f7b.chunk.js.map",
+    "436.8340256a.chunk.js.map": "/designo-multi-page-website/static/js/436.8340256a.chunk.js.map",
     "282.80ffcb31.chunk.js.map": "/designo-multi-page-website/static/js/282.80ffcb31.chunk.js.map",
     "151.6ca8c71e.chunk.js.map": "/designo-multi-page-website/static/js/151.6ca8c71e.chunk.js.map",
     "453.f758af16.chunk.js.map": "/designo-multi-page-website/static/js/453.f758af16.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.75ff5ee8.css",
-    "static/js/main.ea3ea210.js"
+    "static/js/main.b3707153.js"
   ]
 }
