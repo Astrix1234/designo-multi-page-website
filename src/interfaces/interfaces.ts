@@ -73,3 +73,15 @@ export interface MobilNavigationProps {
   onOpen: () => void;
   isOpen: boolean;
 }
+
+export interface TitleTextLightBgProps {
+  title: string;
+  text: string;
+  textCont: string;
+}
+
+export interface PictureContainerAboutProps {
+  mobileImage: string;
+  tabletImage: string;
+  desktopImage: string;
+}

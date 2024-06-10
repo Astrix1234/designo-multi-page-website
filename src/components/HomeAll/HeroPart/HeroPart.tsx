@@ -6,10 +6,13 @@ import {
 } from './HeroPart.styles';
 import { BgPatternHeroHome } from '../../../Icons/BgPatternHeroHome/BgPatternHeroHome';
 import { Button } from '../../Share/Button/Button';
+import { useNavigate } from 'react-router-dom';
 
 export const MainPart = () => {
+  const navigate = useNavigate();
+
   const handleClick = () => {
-    console.log('Button clicked');
+    navigate('/about');
   };
 
   return (
