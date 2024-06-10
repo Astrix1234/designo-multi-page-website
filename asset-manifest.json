@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/designo-multi-page-website/static/css/main.6ba54d83.css",
-    "main.js": "/designo-multi-page-website/static/js/main.51e69925.js",
-    "static/js/677.69491f9b.chunk.js": "/designo-multi-page-website/static/js/677.69491f9b.chunk.js",
-    "static/js/926.6d99e1a0.chunk.js": "/designo-multi-page-website/static/js/926.6d99e1a0.chunk.js",
+    "main.css": "/designo-multi-page-website/static/css/main.75ff5ee8.css",
+    "main.js": "/designo-multi-page-website/static/js/main.ea3ea210.js",
+    "static/js/677.2d088a66.chunk.js": "/designo-multi-page-website/static/js/677.2d088a66.chunk.js",
+    "static/js/420.3e610f7b.chunk.js": "/designo-multi-page-website/static/js/420.3e610f7b.chunk.js",
     "static/js/282.80ffcb31.chunk.js": "/designo-multi-page-website/static/js/282.80ffcb31.chunk.js",
-    "static/js/979.7239f154.chunk.js": "/designo-multi-page-website/static/js/979.7239f154.chunk.js",
+    "static/js/151.6ca8c71e.chunk.js": "/designo-multi-page-website/static/js/151.6ca8c71e.chunk.js",
     "static/js/453.f758af16.chunk.js": "/designo-multi-page-website/static/js/453.f758af16.chunk.js",
     "static/js/150.3636806b.chunk.js": "/designo-multi-page-website/static/js/150.3636806b.chunk.js",
+    "static/js/128.ab37e8a4.chunk.js": "/designo-multi-page-website/static/js/128.ab37e8a4.chunk.js",
     "index.html": "/designo-multi-page-website/index.html",
-    "main.6ba54d83.css.map": "/designo-multi-page-website/static/css/main.6ba54d83.css.map",
-    "main.51e69925.js.map": "/designo-multi-page-website/static/js/main.51e69925.js.map",
-    "677.69491f9b.chunk.js.map": "/designo-multi-page-website/static/js/677.69491f9b.chunk.js.map",
-    "926.6d99e1a0.chunk.js.map": "/designo-multi-page-website/static/js/926.6d99e1a0.chunk.js.map",
+    "main.75ff5ee8.css.map": "/designo-multi-page-website/static/css/main.75ff5ee8.css.map",
+    "main.ea3ea210.js.map": "/designo-multi-page-website/static/js/main.ea3ea210.js.map",
+    "677.2d088a66.chunk.js.map": "/designo-multi-page-website/static/js/677.2d088a66.chunk.js.map",
+    "420.3e610f7b.chunk.js.map": "/designo-multi-page-website/static/js/420.3e610f7b.chunk.js.map",
     "282.80ffcb31.chunk.js.map": "/designo-multi-page-website/static/js/282.80ffcb31.chunk.js.map",
-    "979.7239f154.chunk.js.map": "/designo-multi-page-website/static/js/979.7239f154.chunk.js.map",
+    "151.6ca8c71e.chunk.js.map": "/designo-multi-page-website/static/js/151.6ca8c71e.chunk.js.map",
     "453.f758af16.chunk.js.map": "/designo-multi-page-website/static/js/453.f758af16.chunk.js.map",
-    "150.3636806b.chunk.js.map": "/designo-multi-page-website/static/js/150.3636806b.chunk.js.map"
+    "150.3636806b.chunk.js.map": "/designo-multi-page-website/static/js/150.3636806b.chunk.js.map",
+    "128.ab37e8a4.chunk.js.map": "/designo-multi-page-website/static/js/128.ab37e8a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba54d83.css",
-    "static/js/main.51e69925.js"
+    "static/css/main.75ff5ee8.css",
+    "static/js/main.ea3ea210.js"
   ]
 }
