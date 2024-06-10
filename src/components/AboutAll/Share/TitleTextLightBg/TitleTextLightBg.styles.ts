@@ -16,6 +16,7 @@ export const Container = styled.div`
     font-size: 32px;
     line-height: 36px;
     color: var(--peach);
+    font-weight: 500;
   }
 
   & p {

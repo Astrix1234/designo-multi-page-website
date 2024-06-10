@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { media } from '../../../../stylesheets/media';
 import { PictureContainerAboutProps } from '../../../../interfaces/interfaces';
 
@@ -13,15 +13,15 @@ export const PictureContainer = styled.div<PictureContainerAboutProps>`
   position: relative;
   z-index: 1;
 
-  ${media.tablet(`
+  ${media.tablet(css<PictureContainerAboutProps>`
     background-image: url(${(props: PictureContainerAboutProps) =>
       props.tabletImage});
   `)}
 
-  ${media.desktop(`
+  ${media.desktop(css<PictureContainerAboutProps>`
     max-width: 476px;
     height: 100%;
-     background-image: url(${(props: PictureContainerAboutProps) =>
-       props.desktopImage});
+    background-image: url(${(props: PictureContainerAboutProps) =>
+      props.desktopImage});
   `)}
 `;
