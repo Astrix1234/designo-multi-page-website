@@ -6,11 +6,7 @@ export const createImagesMobile = (navigate: (path: string) => void) => [
     alt: 'Web Design',
     onClick: () => navigate('/web-design'),
   },
-  {
-    src: `${basename}/assets/home/mobile/image-app-design.jpg`,
-    alt: 'App Design',
-    onClick: () => navigate('/app-design'),
-  },
+
   {
     src: `${basename}/assets/home/mobile/image-graphic-design.jpg`,
     alt: 'Graphic Design',
@@ -24,11 +20,7 @@ export const createImagesTablet = (navigate: (path: string) => void) => [
     alt: 'Web Design',
     onClick: () => navigate('/web-design'),
   },
-  {
-    src: `${basename}/assets/home/tablet/image-app-design.jpg`,
-    alt: 'App Design',
-    onClick: () => navigate('/app-design'),
-  },
+
   {
     src: `${basename}/assets/home/tablet/image-graphic-design.jpg`,
     alt: 'Graphic Design',
@@ -38,9 +30,9 @@ export const createImagesTablet = (navigate: (path: string) => void) => [
 
 export const createImagesDesktop = (navigate: (path: string) => void) => [
   {
-    src: `${basename}/assets/home/desktop/image-app-design.jpg`,
-    alt: 'App Design',
-    onClick: () => navigate('/app-design'),
+    src: `${basename}/assets/home/desktop/image-web-design-small.jpg`,
+    alt: 'Web Design',
+    onClick: () => navigate('/web-design'),
   },
   {
     src: `${basename}/assets/home/desktop/image-graphic-design.jpg`,

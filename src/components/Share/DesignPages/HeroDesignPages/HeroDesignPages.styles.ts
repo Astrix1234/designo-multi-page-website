@@ -1,15 +1,25 @@
 import styled, { keyframes } from 'styled-components';
-import { media } from '../../../stylesheets/media';
+import { media } from '../../../../stylesheets/media';
 
 export const HeroContainer = styled.div`
   width: 100%;
   position: relative;
 `;
 
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
 export const BgPatternLeafContainer = styled.div`
   position: absolute;
-  top: 320px;
+  top: 126px;
   z-index: -1;
+  animation: ${fadeIn} 2s ease-in-out;
 `;
 
 export const Container = styled.div`
@@ -27,18 +37,10 @@ export const Container = styled.div`
   `}
 `;
 
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
-
 export const ContentContainer = styled.div`
   width: 100%;
   background-color: var(--peach);
+  height: 320px;
   position: relative;
   overflow: hidden;
   color: var(--white);
@@ -46,41 +48,54 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: ${fadeIn} 2s ease-in-out;
-  padding: 72px 0;
-  height: 764px;
-  gap: 37px;
+  justify-content: center;
+  z-index: 2;
+  gap: 24px;
+
+  & h2,
+  & p {
+    z-index: 4;
+  }
+
+  & h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+  }
+  & p {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 327px;
+    width: 100%;
+  }
 
   ${media.tablet`
     border-radius: 20px;
-    padding: 71px 58px;
-    height: 711px;
-    gap: 29px;
-  `}
-
-  ${media.desktop`
-    flex-direction: row;
-    gap: 95px;
-    padding: 55px 96px;
-    height: 480px;
+    
+    & h2 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+   & p {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 400px;
+  }
   `}
 `;
 
-export const BgPatternContainer = styled.div`
+export const CircleContainer = styled.div`
   position: absolute;
-  left: 50%;
-  bottom: 472px;
-  transform: translate(-50%, 0);
+  right: 0;
+  top: 0;
 
   ${media.tablet`
-    left: -122px;
-    bottom: 154px;
-    transform: translate(0, 0);  
+      right: -146px;
+  top: -120px;
+
   `}
 
   ${media.desktop`
-    left: 0;
-    bottom: 0;
-    transform: translate(0, 0);   
+      right: 292px;
   `}
 `;

@@ -85,3 +85,16 @@ export interface PictureContainerAboutProps {
   tabletImage: string;
   desktopImage: string;
 }
+
+interface Image {
+  src: string;
+  alt: string;
+  onClick: () => void;
+}
+
+export interface PicturesDesignPagesProps {
+  createImagesMobile: (navigate: (path: string) => void) => Image[];
+  createImagesTablet: (navigate: (path: string) => void) => Image[];
+  createImagesDesktop: (navigate: (path: string) => void) => Image[];
+  navigate: (path: string) => void;
+}

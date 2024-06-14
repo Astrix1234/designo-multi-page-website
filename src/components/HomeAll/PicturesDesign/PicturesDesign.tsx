@@ -8,12 +8,14 @@ import { TitlePlusLink } from '../../Share/PicturesDesign/TitlePlusLink/TitlePlu
 import { useMediaQuery } from 'react-responsive';
 import { Picture } from '../../Share/PicturesDesign/Picture/Picture';
 import {
-  imagesDesktop,
-  imagesTablet,
-  imagesMobile,
+  createImagesDesktop,
+  createImagesTablet,
+  createImagesMobile,
 } from '../../../utils/imagesDesignArrays';
+import { useNavigate } from 'react-router-dom';
 
 export const PicturesDesign = () => {
+  const navigate = useNavigate();
   const basename = process.env.PUBLIC_URL || '/designo-multi-page-website';
   const isDesktop = useMediaQuery({ query: '(min-width: 1440px)' });
   const isTablet = useMediaQuery({
@@ -22,7 +24,7 @@ export const PicturesDesign = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
   const handleClick = () => {
-    console.log('clicked');
+    navigate('/web-design');
   };
 
   return (
@@ -30,7 +32,7 @@ export const PicturesDesign = () => {
       <PictureContainer>
         {isMobile && (
           <div>
-            {imagesMobile.map((image, index) => (
+            {createImagesMobile(navigate).map((image, index) => (
               <Picture
                 key={index}
                 src={image.src}
@@ -42,7 +44,7 @@ export const PicturesDesign = () => {
         )}
         {isTablet && (
           <div>
-            {imagesTablet.map((image, index) => (
+            {createImagesTablet(navigate).map((image, index) => (
               <Picture
                 key={index}
                 src={image.src}
@@ -53,28 +55,28 @@ export const PicturesDesign = () => {
           </div>
         )}
         {isDesktop && (
-          <BigPicture onClick={handleClick}>
-            <TitlePlusLinkContainer>
-              <TitlePlusLink />
-            </TitlePlusLinkContainer>
-            <img
-              src={`${basename}/assets/home/desktop/image-web-design-large.jpg`}
-              alt="Web Design"
-            />
-            <div className="overlay"></div>
-          </BigPicture>
-        )}
-        {isDesktop && (
-          <div>
-            {imagesDesktop.map((image, index) => (
-              <Picture
-                key={index}
-                src={image.src}
-                alt={image.alt}
-                onClick={image.onClick}
+          <>
+            <BigPicture onClick={handleClick}>
+              <TitlePlusLinkContainer>
+                <TitlePlusLink title="Web Design" />
+              </TitlePlusLinkContainer>
+              <img
+                src={`${basename}/assets/home/desktop/image-web-design-large.jpg`}
+                alt="Web Design"
               />
-            ))}
-          </div>
+              <div className="overlay"></div>
+            </BigPicture>
+            <div>
+              {createImagesDesktop(navigate).map((image, index) => (
+                <Picture
+                  key={index}
+                  src={image.src}
+                  alt={image.alt}
+                  onClick={image.onClick}
+                />
+              ))}
+            </div>
+          </>
         )}
       </PictureContainer>
     </Container>

@@ -7,6 +7,8 @@ export const PictureContainer = styled.div`
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 
   & img {
     width: 100%;
@@ -37,7 +39,7 @@ export const PictureContainer = styled.div`
   `}
   ${media.desktop`
     max-width: 541px;
-    height: 100%;  
+    height: 308px;  
   `}
 `;
 

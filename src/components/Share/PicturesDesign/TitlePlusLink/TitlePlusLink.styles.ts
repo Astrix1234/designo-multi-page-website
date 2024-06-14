@@ -51,4 +51,10 @@ export const Container = styled.div`
     }
   }
   `}
+
+  ${media.desktop`
+    gap: 24px;
+    flex-direction: column !important;
+
+  `}
 `;
