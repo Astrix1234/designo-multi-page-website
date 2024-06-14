@@ -1,27 +1,33 @@
 {
   "files": {
     "main.css": "/designo-multi-page-website/static/css/main.75ff5ee8.css",
-    "main.js": "/designo-multi-page-website/static/js/main.b3707153.js",
-    "static/js/677.2d088a66.chunk.js": "/designo-multi-page-website/static/js/677.2d088a66.chunk.js",
-    "static/js/436.8340256a.chunk.js": "/designo-multi-page-website/static/js/436.8340256a.chunk.js",
-    "static/js/282.80ffcb31.chunk.js": "/designo-multi-page-website/static/js/282.80ffcb31.chunk.js",
-    "static/js/151.6ca8c71e.chunk.js": "/designo-multi-page-website/static/js/151.6ca8c71e.chunk.js",
-    "static/js/453.f758af16.chunk.js": "/designo-multi-page-website/static/js/453.f758af16.chunk.js",
-    "static/js/150.3636806b.chunk.js": "/designo-multi-page-website/static/js/150.3636806b.chunk.js",
-    "static/js/128.ab37e8a4.chunk.js": "/designo-multi-page-website/static/js/128.ab37e8a4.chunk.js",
+    "main.js": "/designo-multi-page-website/static/js/main.afb4ed22.js",
+    "static/js/986.062f5f84.chunk.js": "/designo-multi-page-website/static/js/986.062f5f84.chunk.js",
+    "static/js/244.5b3e91df.chunk.js": "/designo-multi-page-website/static/js/244.5b3e91df.chunk.js",
+    "static/js/282.2494c6e9.chunk.js": "/designo-multi-page-website/static/js/282.2494c6e9.chunk.js",
+    "static/js/151.09578140.chunk.js": "/designo-multi-page-website/static/js/151.09578140.chunk.js",
+    "static/js/412.d21f7ddb.chunk.js": "/designo-multi-page-website/static/js/412.d21f7ddb.chunk.js",
+    "static/js/277.76cefc1c.chunk.js": "/designo-multi-page-website/static/js/277.76cefc1c.chunk.js",
+    "static/js/544.506ecfb2.chunk.js": "/designo-multi-page-website/static/js/544.506ecfb2.chunk.js",
+    "static/js/453.503b1c63.chunk.js": "/designo-multi-page-website/static/js/453.503b1c63.chunk.js",
+    "static/js/150.666b0da1.chunk.js": "/designo-multi-page-website/static/js/150.666b0da1.chunk.js",
+    "static/js/128.77dc0c42.chunk.js": "/designo-multi-page-website/static/js/128.77dc0c42.chunk.js",
     "index.html": "/designo-multi-page-website/index.html",
     "main.75ff5ee8.css.map": "/designo-multi-page-website/static/css/main.75ff5ee8.css.map",
-    "main.b3707153.js.map": "/designo-multi-page-website/static/js/main.b3707153.js.map",
-    "677.2d088a66.chunk.js.map": "/designo-multi-page-website/static/js/677.2d088a66.chunk.js.map",
-    "436.8340256a.chunk.js.map": "/designo-multi-page-website/static/js/436.8340256a.chunk.js.map",
-    "282.80ffcb31.chunk.js.map": "/designo-multi-page-website/static/js/282.80ffcb31.chunk.js.map",
-    "151.6ca8c71e.chunk.js.map": "/designo-multi-page-website/static/js/151.6ca8c71e.chunk.js.map",
-    "453.f758af16.chunk.js.map": "/designo-multi-page-website/static/js/453.f758af16.chunk.js.map",
-    "150.3636806b.chunk.js.map": "/designo-multi-page-website/static/js/150.3636806b.chunk.js.map",
-    "128.ab37e8a4.chunk.js.map": "/designo-multi-page-website/static/js/128.ab37e8a4.chunk.js.map"
+    "main.afb4ed22.js.map": "/designo-multi-page-website/static/js/main.afb4ed22.js.map",
+    "986.062f5f84.chunk.js.map": "/designo-multi-page-website/static/js/986.062f5f84.chunk.js.map",
+    "244.5b3e91df.chunk.js.map": "/designo-multi-page-website/static/js/244.5b3e91df.chunk.js.map",
+    "282.2494c6e9.chunk.js.map": "/designo-multi-page-website/static/js/282.2494c6e9.chunk.js.map",
+    "151.09578140.chunk.js.map": "/designo-multi-page-website/static/js/151.09578140.chunk.js.map",
+    "412.d21f7ddb.chunk.js.map": "/designo-multi-page-website/static/js/412.d21f7ddb.chunk.js.map",
+    "277.76cefc1c.chunk.js.map": "/designo-multi-page-website/static/js/277.76cefc1c.chunk.js.map",
+    "544.506ecfb2.chunk.js.map": "/designo-multi-page-website/static/js/544.506ecfb2.chunk.js.map",
+    "453.503b1c63.chunk.js.map": "/designo-multi-page-website/static/js/453.503b1c63.chunk.js.map",
+    "150.666b0da1.chunk.js.map": "/designo-multi-page-website/static/js/150.666b0da1.chunk.js.map",
+    "128.77dc0c42.chunk.js.map": "/designo-multi-page-website/static/js/128.77dc0c42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75ff5ee8.css",
-    "static/js/main.b3707153.js"
+    "static/js/main.afb4ed22.js"
   ]
 }
