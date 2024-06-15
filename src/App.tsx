@@ -1,6 +1,6 @@
-import { lazy } from 'react';
+import { lazy, useEffect } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { Layout } from './components/Layout/Layout';
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
@@ -14,6 +14,12 @@ const GraphicDesignPage = lazy(
 );
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <>
       <HelmetProvider>
