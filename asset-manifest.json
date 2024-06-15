@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/designo-multi-page-website/static/css/main.75ff5ee8.css",
-    "main.js": "/designo-multi-page-website/static/js/main.913e25ed.js",
+    "main.js": "/designo-multi-page-website/static/js/main.33b12689.js",
     "static/js/986.062f5f84.chunk.js": "/designo-multi-page-website/static/js/986.062f5f84.chunk.js",
     "static/js/244.5b3e91df.chunk.js": "/designo-multi-page-website/static/js/244.5b3e91df.chunk.js",
     "static/js/282.2494c6e9.chunk.js": "/designo-multi-page-website/static/js/282.2494c6e9.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/128.77dc0c42.chunk.js": "/designo-multi-page-website/static/js/128.77dc0c42.chunk.js",
     "index.html": "/designo-multi-page-website/index.html",
     "main.75ff5ee8.css.map": "/designo-multi-page-website/static/css/main.75ff5ee8.css.map",
-    "main.913e25ed.js.map": "/designo-multi-page-website/static/js/main.913e25ed.js.map",
+    "main.33b12689.js.map": "/designo-multi-page-website/static/js/main.33b12689.js.map",
     "986.062f5f84.chunk.js.map": "/designo-multi-page-website/static/js/986.062f5f84.chunk.js.map",
     "244.5b3e91df.chunk.js.map": "/designo-multi-page-website/static/js/244.5b3e91df.chunk.js.map",
     "282.2494c6e9.chunk.js.map": "/designo-multi-page-website/static/js/282.2494c6e9.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.75ff5ee8.css",
-    "static/js/main.913e25ed.js"
+    "static/js/main.33b12689.js"
   ]
 }
