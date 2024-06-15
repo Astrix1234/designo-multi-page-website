@@ -7,6 +7,8 @@ import {
 import { PicturesDesignPages } from '../../components/Share/DesignPages/PicturesDesignPages/PicturesDesignPages';
 import { useNavigate } from 'react-router-dom';
 import { HeroDesignPages } from '../../components/Share/DesignPages/HeroDesignPages/HeroDesignPages';
+import { TilesGrid } from '../../components/Share/DesignPages/TilesGrid/TilesGrid';
+import { dataGraphicDesign } from '../../utils/dataGraphicDesign';
 
 export default function GraphicDesignPage() {
   const navigate = useNavigate();
@@ -20,6 +22,7 @@ export default function GraphicDesignPage() {
         text="We deliver eye-catching branding materials that are 
 tailored to meet your business objectives."
       />
+      <TilesGrid tiles={dataGraphicDesign} />
       <PicturesDesignPages
         createImagesMobile={createImagesMobile}
         createImagesTablet={createImagesTablet}

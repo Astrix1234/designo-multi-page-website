@@ -98,3 +98,13 @@ export interface PicturesDesignPagesProps {
   createImagesDesktop: (navigate: (path: string) => void) => Image[];
   navigate: (path: string) => void;
 }
+
+export interface TileProps {
+  title: string;
+  text: string;
+  src: string;
+}
+
+export interface TilesGridProps {
+  tiles: TileProps[];
+}

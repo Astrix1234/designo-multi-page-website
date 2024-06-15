@@ -1,17 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { media } from '../../../stylesheets/media';
 
-export const HeroContainer = styled.div`
-  width: 100%;
-  position: relative;
-`;
-
-export const BgPatternLeafContainer = styled.div`
-  position: absolute;
-  top: 320px;
-  z-index: -1;
-`;
-
 export const Container = styled.div`
   width: 100%;
   margin: 0 auto;

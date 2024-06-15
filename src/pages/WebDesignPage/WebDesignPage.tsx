@@ -7,6 +7,8 @@ import {
 import { PicturesDesignPages } from '../../components/Share/DesignPages/PicturesDesignPages/PicturesDesignPages';
 import { useNavigate } from 'react-router-dom';
 import { HeroDesignPages } from '../../components/Share/DesignPages/HeroDesignPages/HeroDesignPages';
+import { TilesGrid } from '../../components/Share/DesignPages/TilesGrid/TilesGrid';
+import { dataWebDesign } from '../../utils/dataWebDesign';
 
 export default function WebDesignPage() {
   const navigate = useNavigate();
@@ -19,6 +21,7 @@ export default function WebDesignPage() {
         title="Web Design"
         text="We build websites that serve as powerful marketing tools and bring memorable brand experiences."
       />
+      <TilesGrid tiles={dataWebDesign} />
       <PicturesDesignPages
         createImagesMobile={createImagesMobile}
         createImagesTablet={createImagesTablet}

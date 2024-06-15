@@ -7,6 +7,8 @@ import {
 import { PicturesDesignPages } from '../../components/Share/DesignPages/PicturesDesignPages/PicturesDesignPages';
 import { useNavigate } from 'react-router-dom';
 import { HeroDesignPages } from '../../components/Share/DesignPages/HeroDesignPages/HeroDesignPages';
+import { TilesGrid } from '../../components/Share/DesignPages/TilesGrid/TilesGrid';
+import { dataAppDesign } from '../../utils/dataAppDesign';
 
 export default function AppDesignPage() {
   const navigate = useNavigate();
@@ -20,6 +22,7 @@ export default function AppDesignPage() {
         text="Our mobile designs bring intuitive digital solutions
  to your customers right at their fingertips."
       />
+      <TilesGrid tiles={dataAppDesign} />
       <PicturesDesignPages
         createImagesMobile={createImagesMobile}
         createImagesTablet={createImagesTablet}
