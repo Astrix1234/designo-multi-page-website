@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkdesigno_multi_page_website=self.webpackChunkdesigno_multi_page_website||[]).push([[282],{8282:(e,i,s)=>{s.r(i),s.d(i,{default:()=>l});var n=s(1802),t=s(579);function l(){return(0,t.jsxs)("div",{children:[(0,t.jsx)(n.mg,{children:(0,t.jsx)("title",{children:"Designo-our-locations"})}),(0,t.jsx)("h1",{children:"Locations Page"})]})}}}]);
-//# sourceMappingURL=282.2494c6e9.chunk.js.map
