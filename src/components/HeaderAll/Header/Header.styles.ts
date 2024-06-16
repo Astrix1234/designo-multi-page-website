@@ -32,5 +32,5 @@ export const HederContainer = styled.header`
   position: sticky;
   top: 0;
   background-color: var(--white);
-  z-index: 100;
+  z-index: 1000;
 `;

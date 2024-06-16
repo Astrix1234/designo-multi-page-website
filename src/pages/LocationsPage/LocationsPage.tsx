@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { Locations } from '../../components/LocationsAll/Locations/Locations';
 
 export default function LocationsPage() {
   return (
@@ -6,7 +7,7 @@ export default function LocationsPage() {
       <Helmet>
         <title>Designo-our-locations</title>
       </Helmet>
-      <h1>Locations Page</h1>
+      <Locations />
     </div>
   );
 }

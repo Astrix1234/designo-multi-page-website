@@ -1,0 +1,32 @@
+export const dataLocations = [
+  {
+    country: 'Canada',
+    office: 'Designo Central Office',
+    street: '3886 Wellington Street',
+    city: 'Toronto, Ontario M9C 3J5',
+    contact: 'Contact',
+    phone: 'P : +1 253-863-8967',
+    email: 'M : contact@designo.co',
+    position: [43.65107, -79.347015] as [number, number],
+  },
+  {
+    country: 'Australia',
+    office: 'Designo AU Office',
+    street: '19 Balonne Street',
+    city: 'New South Wales 2443',
+    contact: 'Contact',
+    phone: 'P : (02) 6720 9092',
+    email: 'M : contact@designo.au',
+    position: [-31.253218, 146.921099] as [number, number],
+  },
+  {
+    country: 'United Kingdom',
+    office: 'Designo UK Office',
+    street: '13 Colorado Way',
+    city: 'Rhyd-y-fro SA8 9GA',
+    contact: 'Contact',
+    phone: 'P : 078 3115 1400',
+    email: 'M : contact@designo.uk',
+    position: [51.509865, -0.118092] as [number, number],
+  },
+];
