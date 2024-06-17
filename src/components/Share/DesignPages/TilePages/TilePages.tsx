@@ -1,18 +1,18 @@
-import css from './TilePages.module.css';
 import { TileProps } from '../../../../interfaces/interfaces';
+import { Container, Image, Text } from './TilePages.styles';
 
 export const TilePages: React.FC<TileProps> = ({ title, text, src }) => {
   return (
-    <div className={css.container}>
-      <div className={css.image}>
+    <Container>
+      <Image>
         <img src={src} alt={title} />
-      </div>
-      <div className={css.text}>
+      </Image>
+      <Text>
         <div>
           <h4>{title}</h4>
           <p>{text}</p>
         </div>
-      </div>
-    </div>
+      </Text>
+    </Container>
   );
 };
