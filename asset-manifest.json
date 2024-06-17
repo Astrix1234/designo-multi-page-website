@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/designo-multi-page-website/static/css/main.75ff5ee8.css",
-    "main.js": "/designo-multi-page-website/static/js/main.45718821.js",
+    "main.js": "/designo-multi-page-website/static/js/main.743c59f4.js",
     "static/js/986.062f5f84.chunk.js": "/designo-multi-page-website/static/js/986.062f5f84.chunk.js",
     "static/js/213.78de8fcd.chunk.js": "/designo-multi-page-website/static/js/213.78de8fcd.chunk.js",
     "static/css/281.6d17294f.chunk.css": "/designo-multi-page-website/static/css/281.6d17294f.chunk.css",
-    "static/js/281.c0434bf2.chunk.js": "/designo-multi-page-website/static/js/281.c0434bf2.chunk.js",
+    "static/js/281.97d9f766.chunk.js": "/designo-multi-page-website/static/js/281.97d9f766.chunk.js",
     "static/js/151.b9e7db56.chunk.js": "/designo-multi-page-website/static/js/151.b9e7db56.chunk.js",
     "static/css/338.4c6b4415.chunk.css": "/designo-multi-page-website/static/css/338.4c6b4415.chunk.css",
     "static/js/338.0772cb73.chunk.js": "/designo-multi-page-website/static/js/338.0772cb73.chunk.js",
@@ -19,11 +19,11 @@
     "static/js/128.77dc0c42.chunk.js": "/designo-multi-page-website/static/js/128.77dc0c42.chunk.js",
     "index.html": "/designo-multi-page-website/index.html",
     "main.75ff5ee8.css.map": "/designo-multi-page-website/static/css/main.75ff5ee8.css.map",
-    "main.45718821.js.map": "/designo-multi-page-website/static/js/main.45718821.js.map",
+    "main.743c59f4.js.map": "/designo-multi-page-website/static/js/main.743c59f4.js.map",
     "986.062f5f84.chunk.js.map": "/designo-multi-page-website/static/js/986.062f5f84.chunk.js.map",
     "213.78de8fcd.chunk.js.map": "/designo-multi-page-website/static/js/213.78de8fcd.chunk.js.map",
     "281.6d17294f.chunk.css.map": "/designo-multi-page-website/static/css/281.6d17294f.chunk.css.map",
-    "281.c0434bf2.chunk.js.map": "/designo-multi-page-website/static/js/281.c0434bf2.chunk.js.map",
+    "281.97d9f766.chunk.js.map": "/designo-multi-page-website/static/js/281.97d9f766.chunk.js.map",
     "151.b9e7db56.chunk.js.map": "/designo-multi-page-website/static/js/151.b9e7db56.chunk.js.map",
     "338.4c6b4415.chunk.css.map": "/designo-multi-page-website/static/css/338.4c6b4415.chunk.css.map",
     "338.0772cb73.chunk.js.map": "/designo-multi-page-website/static/js/338.0772cb73.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.75ff5ee8.css",
-    "static/js/main.45718821.js"
+    "static/js/main.743c59f4.js"
   ]
 }
