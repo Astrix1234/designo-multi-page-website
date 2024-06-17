@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Frontend Mentor - Designo agency website solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![1](./screenshots/Screenshot-Designo_Home.png)
+![2](./screenshots/Screenshot-Designo_Locations.png)
 
-## Available Scripts
+## Developed with
 
-In the project directory, you can run:
+- Built with:
+  - [React](https://reactjs.org/) - JS library
+  - [Styled Components](https://styled-components.com/) - For styles
+- React Router for routing management
+- Formik for form management, ensuring efficient and organized handling of form
+  data.
+- Leaflet JS for interactive maps
 
-### `npm start`
+## The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Users should be able to:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- Receive an error message when the contact form is submitted if:
+  - The `Name`, `Email Address` or `Your Message` fields are empty should show
+    "Can't be empty"
+  - The `Email Address` is not formatted correctly should show "Please use a
+    valid email address"
+- **Bonus**: View actual locations on the locations page maps (we recommend
+  [Leaflet JS](https://leafletjs.com/) for this)
 
-### `npm test`
+  ## Implementation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  In the application, React components are structured with lazy loading to
+  enhance performance. The project uses:
 
-### `npm run build`
+- React Router for client-side routing to manage navigation within the app.
+- Styled Components for writing CSS that's scoped to individual components.
+- Formik for handling form state and validation, ensuring smooth and error-free
+  form submissions.
+- Leaflet JS for rendering interactive maps on the locations page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app is configured to scroll to the top of the page on route changes,
+ensuring a seamless user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Potential future developments for the application include:
 
-### `npm run eject`
+- Backend Integration: Connecting to a backend service for dynamic content and
+  data management.
+- Blog Section: Adding a blog section to share updates, news, and articles.
+- Animations: Enhancing the user interface with animations and transitions for a
+  more engaging experience.
+- E-commerce Functionality: Implementing features for handling product listings,
+  shopping cart, and checkout processes.
+- Admin Panel: Creating an admin panel for easy management of website content,
+  including adding new projects, updating team information, and handling
+  inquiries.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+These enhancements will ensure the application remains flexible, scalable, and
+able to meet the evolving needs of its users.
