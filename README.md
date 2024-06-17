@@ -27,10 +27,10 @@ Users should be able to:
 - **Bonus**: View actual locations on the locations page maps (we recommend
   [Leaflet JS](https://leafletjs.com/) for this)
 
-  ## Implementation
+## Implementation
 
-  In the application, React components are structured with lazy loading to
-  enhance performance. The project uses:
+In the application, React components are structured with lazy loading to enhance
+performance. The project uses:
 
 - React Router for client-side routing to manage navigation within the app.
 - Styled Components for writing CSS that's scoped to individual components.
