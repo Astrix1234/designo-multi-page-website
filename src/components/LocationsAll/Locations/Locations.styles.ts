@@ -34,6 +34,10 @@ export const ContentContainer = styled.div`
   ${media.desktop`
         flex-direction: row;
         gap: 30px;
+
+        &.content {
+            flex-direction: row-reverse;
+        }
     `}
 `;
 
@@ -46,38 +50,100 @@ export const TextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   height: 394px;
+  text-align: center;
+  color: var(--dark-grey);
+  font-size: 15px;
+  line-height: 25px;
+
+  & h4 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-top: 80px;
+    color: var(--peach);
+  }
+
+  & .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  & div div {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+
+    & p:first-of-type {
+      font-weight: 700;
+    }
+  }
 
   ${media.tablet`
     border-radius: 20px;
     height: 326px;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 70px;
+    justify-content: center;
+    font-size: 16px;
+  line-height: 26px;
+ 
     
+  & h4 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-top: 0;
+    color: var(--peach);
+  }
+
+  & .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+     margin-top: 24px;
+      gap: 130px;
+  }
+
+  & div div {
+    margin-top: 0;
+
+    & p:first-of-type {
+      font-weight: 700;
+    }
+  }
   `}
 
   ${media.desktop`
     height: 350px;
+
+     & .contacts {
+      gap: 150px;
+  }
   `}
 `;
 
 export const CircleContainer = styled.div`
   position: absolute;
   left: 0;
-  bottom: 253px;
+  bottom: 102px;
 
   ${media.tablet`
-    left: 94px;
-    bottom: 336px;
+    left: 0;
+    bottom: 292px;
   `}
 `;
 
 export const Circle180Container = styled.div`
   position: absolute;
   left: 0;
-  bottom: -39px;
+  bottom: -190px;
   transform: rotate(180deg);
 
   ${media.tablet`
-     left: 94px;
-  bottom: 44px;
+     left: 0;
+  bottom: 0;
   `}
 
   ${media.desktop`
@@ -89,12 +155,12 @@ export const Circle180Container = styled.div`
 export const Circle90Container = styled.div`
   position: absolute;
   left: 292px;
-  bottom: -39px;
+  bottom: -190px;
   transform: rotate(270deg);
 
   ${media.tablet`
-     left: 386px;
-  bottom: 44px;
+     left: 292px;
+  bottom: 0;
   `}
 
   ${media.desktop`

@@ -17,12 +17,15 @@ export const Locations = () => {
   return (
     <Container>
       {dataLocations.map((location, index) => (
-        <ContentContainer key={index}>
+        <ContentContainer
+          key={index}
+          className={index % 2 === 0 ? 'content' : ''}
+        >
           <Maps position={location.position} />
 
           <TextContainer>
             <h4>{location.country}</h4>
-            <div>
+            <div className="contacts">
               <div>
                 <p>{location.office}</p>
                 <p>{location.street}</p>
@@ -34,18 +37,18 @@ export const Locations = () => {
                 <p>{location.email}</p>
               </div>
             </div>
-          </TextContainer>
-          {!isDesktop && (
-            <CircleContainer>
+            {!isDesktop && (
+              <CircleContainer>
+                <CircleOne />
+              </CircleContainer>
+            )}
+            <Circle180Container>
               <CircleOne />
-            </CircleContainer>
-          )}
-          <Circle180Container>
-            <CircleOne />
-          </Circle180Container>
-          <Circle90Container>
-            <CircleOne />
-          </Circle90Container>
+            </Circle180Container>
+            <Circle90Container>
+              <CircleOne />
+            </Circle90Container>
+          </TextContainer>
         </ContentContainer>
       ))}
     </Container>
